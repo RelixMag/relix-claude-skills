@@ -1,5 +1,5 @@
 ---
-name: project-orchestrator
+name: task-triage
 description: >
   Use when given a numbered list of action items to plan and execute a
   multi-step project. Classifies each task by owner (agent vs. human) and
@@ -11,7 +11,7 @@ description: >
   parallel," "create a task list from this."
 ---
 
-# Project Orchestrator
+# Task Triage
 
 Use this skill when given a numbered list of action items for a multi-step project. It produces: a classified task list, a TASKS.md reference file, git branches for human-owned tasks, a Claude Code task list, and a ready-to-execute plan with agent dispatch.
 
